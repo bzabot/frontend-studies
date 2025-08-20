@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ChatTier Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="body">
+  <div class="header">
+
+    <div class="title">
+        <svg viewBox="0 0 640 512" width="100" title="robot" class="logo">
+        <path d="M32,224H64V416H32A31.96166,31.96166,0,0,1,0,384V256A31.96166,31.96166,0,0,1,32,224Zm512-48V448a64.06328,64.06328,0,0,1-64,64H160a64.06328,64.06328,0,0,1-64-64V176a79.974,79.974,0,0,1,80-80H288V32a32,32,0,0,1,64,0V96H464A79.974,79.974,0,0,1,544,176ZM264,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,264,256Zm-8,128H192v32h64Zm96,0H288v32h64ZM456,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,456,256Zm-8,128H384v32h64ZM640,256V384a31.96166,31.96166,0,0,1-32,32H576V224h32A31.96166,31.96166,0,0,1,640,256Z" />
+      </svg>
+      <h2>ChatTier</h2>
+    </div>
+
+    <button class="start-btn">Start Chatting</button>
+
+  </div>
+
+  <div class="main">
+    <div class="content">
+        <h1 class="main_text">Your Personal Learning Assistant</h1>
+        <h4 class="sub_text">Stuck on a concept? ChatTier breaks it down for you. Just choose a topic.</h4>
+      
+      <form class="input_area" (ngSubmit)="onSubmit($event)">
+        <textarea placeholder="Explain quantum mechanics..." class="text__area"></textarea>
+     
+        <a class="send_button" href="">
+            <svg viewBox="0 0 448 512" width="100" title="long-arrow-alt-right" class="send_icon">
+  <path d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z" />
+        </a>
+    </form>
+        
+        
+        <h4 class="explanation_text">Choose your explanation level:</h4>
+        <div class="levels">
+          <a class="level" href="">Simplest</a>
+          <a class="level selected" href="">Intermediate</a>
+          <a class="level" href="">Advanced</a>
+        </div>
+ 
+     </div>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
