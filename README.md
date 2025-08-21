@@ -10,3 +10,4 @@ Here are a few examples:
 
 ![statistica](docs/statistica.png)  
 ![chattier_landing](docs/chattier_landing.png)  
+![chattier_interface](docs/chattier_interface.png)  
